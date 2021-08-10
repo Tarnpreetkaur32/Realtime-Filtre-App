@@ -1,0 +1,22 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/44/8c/13/448c13df411af9f2136e41f41e716ad9.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h3{
+    font-size: 25px !important;
+}
+.btn-success:hover{
+    background-color: deeppink;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example { 
+    from {box-shadow: 1px 1px 38px red;
+    } 
+    to {box-shadow: 1px 1px 38px yellow;
+    }
+ }
